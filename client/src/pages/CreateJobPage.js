@@ -29,7 +29,7 @@ function CreateJobPage() {
     e.preventDefault();
     setLoading(true);
     try {
-      await axios.post("http://localhost:5000/api/jobs", {    
+      await axios.post("https://jobadd.onrender.com/api/jobs", {    
         ...job,
         salaryMin: job.salaryMin ? Number(job.salaryMin) : undefined,
         salaryMax: job.salaryMax ? Number(job.salaryMax) : undefined,
