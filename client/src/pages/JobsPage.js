@@ -32,7 +32,7 @@ function JobsPage() {
       }
 
       console.log("Fetching jobs with params:", params);
-      const res = await axios.get("http://localhost:5000/api/jobs", { params });
+      const res = await axios.get("https://jobadd.onrender.com/api/jobs", { params });
       console.log("API Response:", res.data);
       setJobs(res.data);
     } catch (err) {
