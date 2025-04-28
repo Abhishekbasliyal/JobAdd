@@ -1,0 +1,86 @@
+.search-filter {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+    padding: 16px 22px;
+    margin: 30px auto 0 auto;
+    max-width: 1200px;
+  }
+  
+  .sf-input {
+    position: relative;
+    width: 240px;
+  }
+  
+  .sf-input input {
+    width: 100%;
+    padding: 10px 12px 10px 34px;
+    border: 1px solid #e5e7eb;
+    border-radius: 7px;
+    font-size: 15px;
+    background: #f7f8fa;
+  }
+  
+  .sf-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #6366f1;
+    font-size: 18px;
+  }
+  
+  .sf-select {
+    position: relative;
+    width: 180px;
+  }
+  
+  .sf-select select {
+    width: 100%;
+    padding: 10px 12px 10px 34px;
+    border: 1px solid #e5e7eb;
+    border-radius: 7px;
+    font-size: 15px;
+    background: #f7f8fa;
+    appearance: none;
+  }
+  
+  .sf-salary {
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    color: #555;
+    min-width: 180px;
+  }
+  
+  .sf-salary-range {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .sf-salary-range input[type="range"] {
+    accent-color: #6366f1;
+    width: 80px;
+  }
+  
+  .sf-search-btn {
+    background: #6366f1;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    padding: 10px 22px;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 12px;
+    transition: background 0.2s;
+  }
+  
+  .sf-search-btn:hover {
+    background: #4338ca;
+  }
+  

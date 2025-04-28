@@ -1,0 +1,101 @@
+.createjob-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.32);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 50;
+  }
+  
+  .createjob-modal {
+    background: #fff;
+    border-radius: 18px;
+    padding: 36px 36px 28px 36px;
+    min-width: 420px;
+    max-width: 520px;
+    width: 100%;
+    box-shadow: 0 2px 24px rgba(0,0,0,0.16);
+  }
+  
+  .createjob-modal h2 {
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: 22px;
+    font-weight: 700;
+  }
+  
+  .createjob-row {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 18px;
+  }
+  
+  .createjob-field {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .createjob-field label {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 7px;
+    color: #222;
+  }
+  
+  .createjob-field input,
+  .createjob-field select,
+  .createjob-field textarea {
+    padding: 10px 12px;
+    border: 1px solid #e5e7eb;
+    border-radius: 7px;
+    font-size: 15px;
+    background: #f7f8fa;
+    margin-bottom: 0;
+  }
+  
+  .createjob-field textarea {
+    resize: vertical;
+    min-height: 70px;
+  }
+  
+  .createjob-salary {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .createjob-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 14px;
+  }
+  
+  .createjob-draft {
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    color: #222;
+    border-radius: 7px;
+    padding: 10px 22px;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: not-allowed;
+  }
+  
+  .createjob-publish {
+    background: #06b6d4;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    padding: 10px 32px;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  
+  .createjob-publish:hover:enabled {
+    background: #0891b2;
+  }
+  
